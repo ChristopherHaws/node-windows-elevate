@@ -12,13 +12,13 @@
   ],
   "author": "Christopher Haws",
   "license": "MIT",
-  "homepage": "https://github.com/ChristopherHaws/windows-elevate/",
+  "homepage": "https://github.com/ChristopherHaws/node-windows-elevate/",
   "bugs": {
-    "url": "https://github.com/ChristopherHaws/windows-elevate/issues"
+    "url": "https://github.com/ChristopherHaws/node-windows-elevate/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/ChristopherHaws/windows-elevate.git"
+    "url": "git://github.com/ChristopherHaws/node-windows-elevate.git"
   },
   "engines": {
     "node": "*"
