@@ -1,33 +1,33 @@
 {
-	"name": "windows-elevate",
-	"version": "0.0.1",
-	"description": "Executes a command in an elevated command prompt",
-	"main": "lib/index.js",
-	"keywords": [
-		"windows",
-		"elevate",
-		"sudo",
-		"execute",
-		"command"
-	],
-	"author": "Christopher Haws",
-	"license": "MIT",
-	"homepage": "https://github.com/ChristopherHaws/windows-elevate/",
-	"bugs": {
-		"url": "https://github.com/ChristopherHaws/windows-elevate/issues"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/ChristopherHaws/windows-elevate.git"
-	},
-	"engines": {
-		"node": "*"
-	},
-	"files": [
-    	"LICENSE.txt",
-    	"README.md",
-    	"lib",
-		"dependencies/elevate/bin.x86-32",
-		"dependencies/elevate/bin.x86-64"
-  	]
+  "name": "windows-elevate",
+  "version": "1.0.0",
+  "description": "Executes a command in an elevated command prompt",
+  "main": "lib/index.js",
+  "keywords": [
+    "windows",
+    "elevate",
+    "sudo",
+    "execute",
+    "command"
+  ],
+  "author": "Christopher Haws",
+  "license": "MIT",
+  "homepage": "https://github.com/ChristopherHaws/windows-elevate/",
+  "bugs": {
+    "url": "https://github.com/ChristopherHaws/windows-elevate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ChristopherHaws/windows-elevate.git"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "files": [
+    "LICENSE.txt",
+    "README.md",
+    "lib",
+    "dependencies/elevate/bin.x86-32",
+    "dependencies/elevate/bin.x86-64"
+  ]
 }
