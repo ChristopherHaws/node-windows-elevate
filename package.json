@@ -1,6 +1,6 @@
 {
   "name": "windows-elevate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Executes a command in an elevated command prompt",
   "main": "lib/index.js",
   "keywords": [
