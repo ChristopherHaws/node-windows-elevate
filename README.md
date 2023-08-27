@@ -18,4 +18,16 @@ elevate.exec('echo', 'Hello World', function(error, stdout, stderror) {
 
 	console.log('Success!');
 });
+
+// same, but using Promise
+
+elevate.execPromise('echo', 'Hello World', 
+	{ wait: true, cmd: 'terminating', cwd: process.cwd(), unicode: true})
+.then({stdout, stderr}=>{
+	console.log('Success!');
+	console.log(stdout);
+})
+.catch(e=>{
+	console.log('Failed!');
+})
 ```
